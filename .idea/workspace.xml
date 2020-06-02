@@ -1,20 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d12f6369-0fe2-461e-963f-39c145f0f46c" name="Default Changelist" comment="" />
+    <list default="true" id="d12f6369-0fe2-461e-963f-39c145f0f46c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/ChromeDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/FireFoxDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/InternetExplorerDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/MEDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/browser.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chrome.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/FactoryPatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bGQuDYJfk71LWvn9vylxL2qRgm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Different/example/lesson_19/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="core.browser" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FactoryPatterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingTutBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="base.FactoryPatterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FactoryPatterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,10 +101,37 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="429" y="310" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591095657895">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state x="429" y="310" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1418.759@0.0.1418.759" timestamp="1591095657895" />
     <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1588256302412">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="380" y="0" key="CommitChangelistDialog2/0.0.1418.759@0.0.1418.759" timestamp="1588256302412" />
+    <state x="532" y="127" key="FileChooserDialogImpl" timestamp="1591094922692">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state x="532" y="127" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1591094922692" />
+    <state width="1374" height="152" key="GridCell.Tab.0.bottom" timestamp="1591105216050">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state width="1374" height="152" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591105216050" />
+    <state width="1374" height="152" key="GridCell.Tab.0.center" timestamp="1591105216048">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state width="1374" height="152" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591105216048" />
+    <state width="1374" height="152" key="GridCell.Tab.0.left" timestamp="1591105216047">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state width="1374" height="152" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591105216047" />
+    <state width="1374" height="152" key="GridCell.Tab.0.right" timestamp="1591105216049">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state width="1374" height="152" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591105216049" />
   </component>
 </project>
