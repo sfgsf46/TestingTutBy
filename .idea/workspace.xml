@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12f6369-0fe2-461e-963f-39c145f0f46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/FireFoxDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/InternetExplorerDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/browser/MEDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chrome.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/env.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/FactoryPatterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicrosoftWebDriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/browser/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/browser/ChromeDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/browser/MEDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/browser/MEDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/browser/ChromeDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/browser/ChromeDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/browser/MEDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/browser/MEDriverManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +56,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="FactoryPatterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestingTutBy" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.FactoryPatterTest" />
+      <option name="MAIN_CLASS_NAME" value="base.FactoryPatternTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -84,7 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FactoryPatterTest" />
+        <item itemvalue="TestNG.FactoryPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -117,21 +108,21 @@
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="532" y="127" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1591094922692" />
-    <state width="1374" height="152" key="GridCell.Tab.0.bottom" timestamp="1591105216050">
+    <state width="1374" height="143" key="GridCell.Tab.0.bottom" timestamp="1591185570188">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="152" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591105216050" />
-    <state width="1374" height="152" key="GridCell.Tab.0.center" timestamp="1591105216048">
+    <state width="1374" height="143" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591185570188" />
+    <state width="1374" height="143" key="GridCell.Tab.0.center" timestamp="1591185570188">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="152" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591105216048" />
-    <state width="1374" height="152" key="GridCell.Tab.0.left" timestamp="1591105216047">
+    <state width="1374" height="143" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591185570188" />
+    <state width="1374" height="143" key="GridCell.Tab.0.left" timestamp="1591185570188">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="152" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591105216047" />
-    <state width="1374" height="152" key="GridCell.Tab.0.right" timestamp="1591105216049">
+    <state width="1374" height="143" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591185570188" />
+    <state width="1374" height="143" key="GridCell.Tab.0.right" timestamp="1591185570188">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="152" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591105216049" />
+    <state width="1374" height="143" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591185570188" />
   </component>
 </project>

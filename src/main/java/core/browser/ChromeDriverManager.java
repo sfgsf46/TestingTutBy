@@ -33,8 +33,8 @@ public class ChromeDriverManager extends DriverManager {
 
     @Override
     public void createDriver() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("test-type");
-        driver = new ChromeDriver(chromeDriverService, options);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("test-type");
+        driver = new ChromeDriver(chromeDriverService);
     }
 }

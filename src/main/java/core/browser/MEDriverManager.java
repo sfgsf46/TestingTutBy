@@ -13,7 +13,7 @@ public class MEDriverManager extends DriverManager {
         if (null == edgeDriverService) {
             try {
                 edgeDriverService = new EdgeDriverService.Builder()
-                        .usingDriverExecutable(new File("msedgedriver.exe"))
+                        .usingDriverExecutable(new File("C:\\Windows\\System32\\MicrosoftWebDriver.exe"))
                         .usingAnyFreePort()
                         .build();
                 edgeDriverService.start();
