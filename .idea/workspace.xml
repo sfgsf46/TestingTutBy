@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12f6369-0fe2-461e-963f-39c145f0f46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Alex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/footer/FooterLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/header/HeaderLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestFooterLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/searchBar/SearchStringCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestSearchLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/navigationBar/NavigationBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/FactoryPatternTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/navigationBar/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/navigationBar/NavigationBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/FactoryPatternTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestHeaderLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestHeaderLink.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,20 @@
       <recent name="core.browser" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestHeaderLink">
+  <component name="RunManager" selected="TestNG.TestSearchLine">
+    <configuration name="SearchStringCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.searchBar.SearchStringCheck" />
+      <module name="TestingTutBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.searchBar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestFooterLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestingTutBy" />
       <extension name="coverage">
@@ -93,8 +101,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingTutBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="base.TestSearchLine" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSearchLine" />
+        <item itemvalue="Application.SearchStringCheck" />
         <item itemvalue="TestNG.TestHeaderLink" />
         <item itemvalue="TestNG.TestFooterLinks" />
       </list>
@@ -147,38 +174,38 @@
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="532" y="127" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1591452877854" />
-    <state width="1374" height="180" key="GridCell.Tab.0.bottom" timestamp="1591459710282">
+    <state width="1374" height="180" key="GridCell.Tab.0.bottom" timestamp="1591462422284">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591459710282" />
-    <state width="1374" height="180" key="GridCell.Tab.0.center" timestamp="1591459710282">
+    <state width="1374" height="180" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
+    <state width="1374" height="180" key="GridCell.Tab.0.center" timestamp="1591462422284">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591459710282" />
-    <state width="1374" height="180" key="GridCell.Tab.0.left" timestamp="1591459710266">
+    <state width="1374" height="180" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
+    <state width="1374" height="180" key="GridCell.Tab.0.left" timestamp="1591462422284">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591459710266" />
-    <state width="1374" height="180" key="GridCell.Tab.0.right" timestamp="1591459710282">
+    <state width="1374" height="180" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
+    <state width="1374" height="180" key="GridCell.Tab.0.right" timestamp="1591462422284">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591459710282" />
-    <state width="1374" height="235" key="GridCell.Tab.1.bottom" timestamp="1591440703521">
+    <state width="1374" height="180" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
+    <state width="1374" height="235" key="GridCell.Tab.1.bottom" timestamp="1591462422253">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="235" key="GridCell.Tab.1.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591440703521" />
-    <state width="1374" height="235" key="GridCell.Tab.1.center" timestamp="1591440703521">
+    <state width="1374" height="235" key="GridCell.Tab.1.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591462422253" />
+    <state width="1374" height="235" key="GridCell.Tab.1.center" timestamp="1591462422253">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="235" key="GridCell.Tab.1.center/0.0.1418.759@0.0.1418.759" timestamp="1591440703521" />
-    <state width="1374" height="235" key="GridCell.Tab.1.left" timestamp="1591440703521">
+    <state width="1374" height="235" key="GridCell.Tab.1.center/0.0.1418.759@0.0.1418.759" timestamp="1591462422253" />
+    <state width="1374" height="235" key="GridCell.Tab.1.left" timestamp="1591462422253">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="235" key="GridCell.Tab.1.left/0.0.1418.759@0.0.1418.759" timestamp="1591440703521" />
-    <state width="1374" height="235" key="GridCell.Tab.1.right" timestamp="1591440703521">
+    <state width="1374" height="235" key="GridCell.Tab.1.left/0.0.1418.759@0.0.1418.759" timestamp="1591462422253" />
+    <state width="1374" height="235" key="GridCell.Tab.1.right" timestamp="1591462422253">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="235" key="GridCell.Tab.1.right/0.0.1418.759@0.0.1418.759" timestamp="1591440703521" />
+    <state width="1374" height="235" key="GridCell.Tab.1.right/0.0.1418.759@0.0.1418.759" timestamp="1591462422253" />
     <state x="526" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591195569530">
       <screen x="0" y="0" width="1418" height="759" />
     </state>

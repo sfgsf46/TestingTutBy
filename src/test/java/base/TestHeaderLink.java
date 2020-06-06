@@ -14,7 +14,7 @@ import pages.header.HeaderLink;
 public class TestHeaderLink {
     DriverManager driverManager;
     WebDriver driver;
-    HeaderLink navigationBar;
+    HeaderLink headerLink;
 
     @BeforeTest
     public void beforeTest() {
@@ -39,50 +39,50 @@ public class TestHeaderLink {
 
     @Test(priority = 2)
     public void clickPoster() {
-        navigationBar = new HeaderLink(driver);
-        navigationBar.clickButtonPoster();
+        headerLink = new HeaderLink(driver);
+        headerLink.clickButtonPoster();
         driver.navigate().back();
     }
 
     @Test(priority = 3)
     public void clickFinance() {
-        navigationBar.clickButtonFinance();
+        headerLink.clickButtonFinance();
         driver.navigate().back();
     }
 
     @Test(priority = 4)
     public void clickPriceCatalog() {
-        navigationBar.clickButtonPriceCatalog();
+        headerLink.clickButtonPriceCatalog();
         driver.navigate().back();
     }
 
     @Test(priority = 5)
     public void clickJob() {
-        navigationBar.clickButtonJob();
+        headerLink.clickButtonJob();
         driver.navigate().back();
     }
 
     @Test(priority = 6)
     public void clickWeather() {
-        navigationBar.clickButtonWeather();
+        headerLink.clickButtonWeather();
         driver.navigate().back();
     }
 
     @Test(priority = 7)
     public void clickTV() {
-        navigationBar.clickButtonTV();
+        headerLink.clickButtonTV();
         driver.navigate().back();
     }
 
     @Test(priority = 8)
     public void clickSelectCity() {
-        navigationBar.clickButtonSelectCity();
+        headerLink.clickButtonSelectCity();
         driver.navigate().back();
     }
 
     @Test(priority = 9)
     public void clickMail() {
-        navigationBar.clickButtonMail();
+        headerLink.clickButtonMail();
         driver.navigate().back();
     }
 }
