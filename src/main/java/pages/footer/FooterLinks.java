@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Set;
-
 public class FooterLinks {
     private static final int TIMEOUT = 10;
     private WebDriver webDriver;
@@ -46,7 +44,7 @@ public class FooterLinks {
 
     }
 
-    public void clickButtonBelarusianLanguage() {
+    public void clickButtonBelorussianLanguage() {
         (new WebDriverWait(webDriver, TIMEOUT))
                 .until(ExpectedConditions.visibilityOf(belarusianLanguage)).click();
     }

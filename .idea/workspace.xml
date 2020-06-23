@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12f6369-0fe2-461e-963f-39c145f0f46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/searchBar/SearchStringCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestSearchLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogger.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestHeaderLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestHeaderLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/footer/FooterLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/footer/FooterLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestFooterLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/TestFooterLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestHeaderLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/TestHeaderLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestSearchLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/TestSearchLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/footer/FooterLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/footer/FooterLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestFooterLinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestHeaderLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestSearchLine.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +53,31 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Automation course/Cours/Занятие 18/Task 18/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="core.browser" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Projects\TestingTutBy\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.TestSearchLine">
+    <configuration name="LoggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.behavior.LoggerTest" />
+      <module name="TestingTutBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.behavior.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchStringCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pages.searchBar.SearchStringCheck" />
       <module name="TestingTutBy" />
@@ -71,12 +95,12 @@
       <module name="TestingTutBy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.TestFooterLinks" />
+      <option name="MAIN_CLASS_NAME" value="ui.TestFooterLinks" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,12 +112,12 @@
       <module name="TestingTutBy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.TestHeaderLink" />
+      <option name="MAIN_CLASS_NAME" value="ui.TestHeaderLink" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -105,12 +129,12 @@
       <module name="TestingTutBy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.TestSearchLine" />
+      <option name="MAIN_CLASS_NAME" value="ui.TestSearchLine" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -121,9 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestSearchLine" />
-        <item itemvalue="Application.SearchStringCheck" />
         <item itemvalue="TestNG.TestHeaderLink" />
         <item itemvalue="TestNG.TestFooterLinks" />
+        <item itemvalue="Application.LoggerTest" />
+        <item itemvalue="Application.SearchStringCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -162,34 +187,34 @@
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="429" y="310" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1418.759@0.0.1418.759" timestamp="1591095657895" />
-    <state x="335" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591459674797">
+    <state x="335" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592412412673">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state x="335" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1418.759@0.0.1418.759" timestamp="1591459674797" />
+    <state x="335" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1418.759@0.0.1418.759" timestamp="1592412412673" />
     <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1591195600249">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="380" y="0" key="CommitChangelistDialog2/0.0.1418.759@0.0.1418.759" timestamp="1591195600249" />
-    <state x="532" y="127" key="FileChooserDialogImpl" timestamp="1591452877854">
+    <state x="532" y="127" key="FileChooserDialogImpl" timestamp="1592929681741">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state x="532" y="127" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1591452877854" />
-    <state width="1374" height="180" key="GridCell.Tab.0.bottom" timestamp="1591462422284">
+    <state x="532" y="127" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1592929681741" />
+    <state width="1374" height="440" key="GridCell.Tab.0.bottom" timestamp="1592929282281">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
-    <state width="1374" height="180" key="GridCell.Tab.0.center" timestamp="1591462422284">
+    <state width="1374" height="440" key="GridCell.Tab.0.bottom/0.0.1418.759@0.0.1418.759" timestamp="1592929282281" />
+    <state width="1374" height="440" key="GridCell.Tab.0.center" timestamp="1592929282280">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
-    <state width="1374" height="180" key="GridCell.Tab.0.left" timestamp="1591462422284">
+    <state width="1374" height="440" key="GridCell.Tab.0.center/0.0.1418.759@0.0.1418.759" timestamp="1592929282280" />
+    <state width="1374" height="440" key="GridCell.Tab.0.left" timestamp="1592929282280">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
-    <state width="1374" height="180" key="GridCell.Tab.0.right" timestamp="1591462422284">
+    <state width="1374" height="440" key="GridCell.Tab.0.left/0.0.1418.759@0.0.1418.759" timestamp="1592929282280" />
+    <state width="1374" height="440" key="GridCell.Tab.0.right" timestamp="1592929282280">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state width="1374" height="180" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1591462422284" />
+    <state width="1374" height="440" key="GridCell.Tab.0.right/0.0.1418.759@0.0.1418.759" timestamp="1592929282280" />
     <state width="1374" height="235" key="GridCell.Tab.1.bottom" timestamp="1591462422253">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
@@ -206,10 +231,10 @@
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state width="1374" height="235" key="GridCell.Tab.1.right/0.0.1418.759@0.0.1418.759" timestamp="1591462422253" />
-    <state x="526" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591195569530">
+    <state x="526" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592930122615">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state x="526" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1418.759@0.0.1418.759" timestamp="1591195569530" />
+    <state x="526" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1418.759@0.0.1418.759" timestamp="1592930122615" />
     <state x="451" y="6" key="refactoring.ChangeSignatureDialog" timestamp="1591372157326">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
